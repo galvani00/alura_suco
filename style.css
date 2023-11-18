@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+body{
+    font-family: 'Borel', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+.cabecalho{
+
+  background:#6D2020;
+   color:#ffec81;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 24px 0;
+}
+.cabecalho-imagem{
+    width: 13%; 
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+.restaurante-imagem{
+    width: 20%;
+}
+
+.escola{
+    background-image: linear-gradient(#6D2020,#491a1a);
+    color: #ffec89;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.restaurante-imagem{
+    width: 200px;
+}
+
+.restaurante-icone{
+    width: 24px;
+}
+
+.restaurante-div{
+    text-align: center;
+}
+
+.funcionario-titulo{
+    text-align: center;
+padding: 50px 0;
+}
+
+.restaurante-todos{
+    display: grid;
+    grid-template-columns: 33,5% 33,5% 33,5% 33,5% 33,5%;
+}
+
